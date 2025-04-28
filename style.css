@@ -160,9 +160,21 @@ body{
 .corpo-3-LH{
     max-width: 600px;
     align-content:center;
+    border-left: 1px solid black;
 }
-.cite{
-    font-size: 20px;
+.citacao{
+    margin-left: 10px;
+}
+.corpo-3-LH h2 a{
+    display: flex;
+    background: #9a4722;
+    color: white;
+    max-width: fit-content;
+    padding: 8px;
+    text-decoration: none;
+}
+.corpo-3-LH h2 a:hover{
+    border-radius: 20px 0 20px 0;
 }
 .Grid-container{
     display: grid;
